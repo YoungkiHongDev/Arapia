@@ -41,7 +41,7 @@ public class DBConnectionMgr {
     private String _driver = "com.mysql.jdbc.Driver",
     _url = "jdbc:mysql://127.0.0.1:3306/webprojectdb?serverTimezone=UTC&useEbcode=true&characterEncoding=utf8",
     _user = "root",
-    _password = "dongyang";
+    _password = "dongyang3804..";
     private boolean _traceOn = false;
     private boolean initialized = false;
     private int _openConnections = 10;

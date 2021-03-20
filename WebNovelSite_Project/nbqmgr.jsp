@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
     <%@ page import="java.util.*, noblesite_Project.*"%>
     <% request.setCharacterEncoding("utf-8");%>
-    <jsp:useBean id="contentmgr" class="noblesite_Project.NovelContentMgr"/>
+    <jsp:useBean id="contentmgr" class="noblesite_Project.NobelContentMgr"/>
     <jsp:useBean id="contentBean" class="noblesite_Project.NobleContentBean"/>
     <jsp:setProperty name="contentBean" property="*"/>
  

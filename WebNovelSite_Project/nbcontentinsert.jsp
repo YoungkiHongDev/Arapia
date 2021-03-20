@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
     <%@page import="java.text.SimpleDateFormat"%>
     <%@ page import="java.util.*, noblesite_Project.*"%>
-    <jsp:useBean id="titlemgr" class="noblesite_Project.NoveltitleMgr"/>
+    <jsp:useBean id="titlemgr" class="noblesite_Project.NobeltitleMgr"/>
     <% 
     	String titleid = request.getParameter("titleid");
        NobleTitleBean nbtitle = titlemgr.getTitle(titleid);

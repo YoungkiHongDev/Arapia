@@ -5,9 +5,9 @@ import java.util.*;
 
 
 
-public class NovelContentMgr {
+public class NobelContentMgr {
 	private DBConnectionMgr dbmgr = null;
-	public NovelContentMgr() {
+	public NobelContentMgr() {
 		try
 		{
 			dbmgr = DBConnectionMgr.getInstance();

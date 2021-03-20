@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.*, noblesite_Project.*"%>
-<jsp:useBean id="titlemgr" class="noblesite_Project.NoveltitleMgr"/>
-<jsp:useBean id="contentmgr" class="noblesite_Project.NovelContentMgr"/>
+<jsp:useBean id="titlemgr" class="noblesite_Project.NobeltitleMgr"/>
+<jsp:useBean id="contentmgr" class="noblesite_Project.NobelContentMgr"/>
 <% request.setCharacterEncoding("euc-kr");
 	String titleid = request.getParameter("titleid");
    NobleTitleBean nbtitle = titlemgr.getTitle(titleid);

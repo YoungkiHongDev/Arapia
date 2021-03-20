@@ -13,11 +13,11 @@ import com.sun.xml.internal.ws.client.RequestContext;
 import noblesite_Project.DBConnectionMgr;
 
 
-public class NoveltitleMgr {
+public class NobeltitleMgr {
 
 	private DBConnectionMgr dbmgr = null;
 	
-	public NoveltitleMgr() {
+	public NobeltitleMgr() {
 		   try {
 	            dbmgr = DBConnectionMgr.getInstance();
 	        } catch (Exception e) {
@@ -34,7 +34,7 @@ public class NoveltitleMgr {
 	        {	
 	        	
 	        	String uploadDir =this.getClass().getResource("").getPath();
-	        	uploadDir = uploadDir.substring(1,uploadDir.indexOf(".metadata"))+"WebNobelsite_Project1/WebContent/img";
+	        	uploadDir = uploadDir.substring(1,uploadDir.indexOf(".metadata"))+"WebNovelSite_Project/WebContent/img";
 	        	MultipartRequest multi = new MultipartRequest(req, uploadDir, 5 * 1024 * 1024, "UTF-8", new DefaultFileRenamePolicy());
 	            
 	            con = dbmgr.getConnection();
@@ -93,7 +93,7 @@ public class NoveltitleMgr {
 	                nbtitle.setNobeldate(rs.getString("date"));
 	                if(rs.getString("genre").equals("fantasy"))
 	                {
-	                	nbtitle.setNobelgenre("?Œ??ì§?");
+	                	nbtitle.setNobelgenre("íŒíƒ€ì§€");
 	                }
 	                else if(rs.getString("genre").equals("muhyup"))
 	                {
@@ -101,15 +101,15 @@ public class NoveltitleMgr {
 	                }
 	                else if(rs.getString("genre").equals("fusionfantasy"))
 	                {
-	                	nbtitle.setNobelgenre("?“¨? „?Œ??ì§?");
+	                	nbtitle.setNobelgenre("í“¨ì „íŒíƒ€ì§€");
 	                }
 	                else if(rs.getString("genre").equals("gamefantasy"))
 	                {
-	                	nbtitle.setNobelgenre("ê²Œì„?Œ??ì§?");
+	                	nbtitle.setNobelgenre("ê²Œì„íŒíƒ€ì§€");
 	                }
 	                else if(rs.getString("genre").equals("hyundaifantasy"))
 	                {
-	                	nbtitle.setNobelgenre("?˜„???Œ??ì§?");
+	                	nbtitle.setNobelgenre("í˜„ëŒ€íŒíƒ€ì§€");
 	                }
 	                nbtitle.setNobelimg(rs.getString("nobel_img"));
 	            }
@@ -129,7 +129,7 @@ public class NoveltitleMgr {
 	        boolean result = false;
 	        
 	        String uploadDir =this.getClass().getResource("").getPath();
-	     	uploadDir =	   uploadDir.substring(1,uploadDir.indexOf(".metadata"))+"WebNobelsite_Project1/WebContent/img";
+	     	uploadDir =	   uploadDir.substring(1,uploadDir.indexOf(".metadata"))+"WebNovelSite_Project/WebContent/img";
 
 	        try {
 	            con = dbmgr.getConnection();
@@ -185,7 +185,7 @@ public class NoveltitleMgr {
 	                nbtitle.setTotal_count(rs.getInt("total_count"));
 	                if(rs.getString("genre").equals("fantasy"))
 	                {
-	                	nbtitle.setNobelgenre("?Œ??ì§?");
+	                	nbtitle.setNobelgenre("íŒíƒ€ì§€");
 	                }
 	                else if(rs.getString("genre").equals("muhyup"))
 	                {
@@ -193,15 +193,15 @@ public class NoveltitleMgr {
 	                }
 	                else if(rs.getString("genre").equals("fusionfantasy"))
 	                {
-	                	nbtitle.setNobelgenre("?“¨? „?Œ??ì§?");
+	                	nbtitle.setNobelgenre("í“¨ì „íŒíƒ€ì§€");
 	                }
 	                else if(rs.getString("genre").equals("gamefantasy"))
 	                {
-	                	nbtitle.setNobelgenre("ê²Œì„?Œ??ì§?");
+	                	nbtitle.setNobelgenre("ê²Œì„íŒíƒ€ì§€");
 	                }
 	                else if(rs.getString("genre").equals("hyundaifantasy"))
 	                {
-	                	nbtitle.setNobelgenre("?˜„???Œ??ì§?");
+	                	nbtitle.setNobelgenre("í˜„ëŒ€íŒíƒ€ì§€");
 	                }
 	                vtitle.add(nbtitle);
 	            }
