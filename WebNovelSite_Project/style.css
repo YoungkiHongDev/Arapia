@@ -1,0 +1,605 @@
+@charset "EUC-KR";
+
+
+
+ #header {
+ 
+    width:1500px;
+    top:0;
+    left:0;
+  }
+
+   .logo {
+     float: left;
+     margin-top:0;
+     margin-left:250px;
+   }
+
+   .search {
+     float: left;
+     margin-top:15px;
+     margin-left:550px;
+     margin-bottom : 10px;
+   }
+
+   .btn {
+     float: left;
+     margin-top:15px;
+     margin-left : -150px;
+     
+   }
+	
+	.nav {
+		height: 50px;
+		width: 1210px;
+		margin-top: 15px;
+		margin-left: 250px;
+		margin-right: 250px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		display: flex;
+		align-items: center;
+		background-color: #489CFF;
+	}
+
+
+
+	.navitem {
+		margin-left: 30px;
+	}
+
+  
+   .content {
+     top: 120px;
+     margin-left: 250px;
+     padding-bottom:1300px;
+   }
+
+
+   .columns{
+     display: flex;
+     height:250px;
+   }
+
+   .column1 {
+     float:left;
+     width: 520px;
+     margin-right : 40px;
+     margin-top : 37px;
+   }
+
+   .column2 {
+     float:left;
+     width: 300px;
+     margin-right : 20px;
+     margin-top : 20px;
+   }
+
+   .column3 {
+     float:left;
+     width: 200px;
+     margin-left : 200px;
+     margin-top : 50px;
+   }
+
+   .leftarea {
+     float:left;
+     width: 900px;
+   }
+   .rightarea {
+     float: left;
+     width: 330px;
+   }
+
+   .underbannerbox{
+     border : 1px solid lightgray;
+     width : 1200px;
+     height : 400px;
+   }
+   .listsort{
+     margin-top : 50dp; 
+   }
+   
+   .novelTitle{
+     float : left;
+     margin-top : 40px;
+     margin-left : 35px;
+     color : white;
+     width : 180px;
+     height : 70px;
+     text-align : center;
+     line-height: 70px;
+     font-size : 110%;
+   }
+
+   .novelList {
+     float : left;
+     margin-left : 35px;
+     border : 1px solid lightgray;
+     background : white;
+     width : 180px;
+     height : 350px;
+   }
+
+   ol{
+     margin-left:10px;
+     line-height:30px;
+   }
+   
+   .lbox{
+     float : left;
+     margin-top : 40px;
+     background : lightgray;
+     width : 900px;
+     height : 500px;
+   }
+
+   .notice {
+     float : left;
+     margin-top : 100px;
+     width : 900px;
+     height : 300px;
+   }
+
+   .rightbanner  {
+     margin-left : 30px;
+     margin-top : 40px;
+     float : left;
+     border : 1px solid lightgray;
+     width : 270px;
+     height : 850px;
+   }
+
+   .underline {
+     dlsplay : block;
+     border-bottom : 1px solid lightgray; 
+     height : 50px;
+   }
+
+  
+   	div a {
+     color:black;
+	 text-decoration: none;
+	}
+
+   #footer {
+     position: absolute;
+     bottom:0;
+     left:250px;
+     width: 1210px;
+     height:300px;
+     border-top : 1px solid black;
+     text-align:center;
+     line-height:50px;
+   }
+   .unline {
+     margin-top : 20px;
+     list-style-type : none;
+     font-size:13px;
+   }
+   .bestbox {
+     width:300px;
+     height : 200px;
+     border : 2px solid cyan; 
+   }
+   
+
+   .imagesort1{
+     float:left;
+     margin-left : 50px;
+     margin-top : 30px;
+     margin-right : 70px;   
+   }
+   
+   .spansort1{
+   	display:inline-block;
+   	text-overflow: ellipsis;
+   	overflow: hidden;
+   	white-space: nowrap;
+   }
+   
+   
+   .best_rank{
+   	width:20px;
+   }
+ 
+   .best_name {
+   	width:80px;
+   }
+   
+    .best_title{
+   	width:130px;
+   }
+   html,body { height: 100%; margin: 0; padding: 0; }
+
+ 
+
+	#container {
+	
+	min-height: 100%; 
+	
+	position: relative;
+	}
+
+	  
+   .resistercontent {
+     margin-top: 50px;
+     margin-left: 500px;
+     padding-bottom:450px;
+   }
+	
+   hr.resline {
+   	width:700px;
+   	border : 1px solid black;
+   	margin-left:0px;
+   }
+   
+   .resarea{
+   		border : 1px solid lightgray;
+   		width : 700px;
+   		height : 680px;
+   }
+   form.resform{	
+   		margin-left : 50px;
+   }
+   
+   input.resinput
+   {
+   		width:550px;
+   		height:50px;
+   		padding:20px;
+   		margin-bottom:10px;
+   }
+   input.resbutton1
+   {
+   		margin-top : 30px;
+   		margin-left:70px;
+   		margin-right : 10px;
+   		border : 1px solid #6799FF;
+   		background : #6799FF;
+   		font-size : 16px;
+   		color : white;
+   		width : 200px;
+   		height : 50px;
+   }
+   input.resbutton2
+   {
+   		margin-top : 30px;
+   		background : white;
+   		border : 1px solid lightgray;
+   		width : 200px;
+   		height : 50px;
+   		font-size : 16px;
+   }
+   input.idchkbtn
+   {
+   		height : 50px;
+   }
+   
+   .logcontent
+   {
+   	 margin-top: 20px;
+     margin-left: 500px;
+     padding-bottom:400px;
+  
+   }
+   .loginarea
+   {
+   	  margin-left : -75px;
+	  width:900px;
+      height:400px;
+      background : #D5D5D5;   
+  }
+   h1.loginfont
+   {
+   		margin-top : 50px;
+   		margin-left : 800px;   	
+   }
+   .loginlogo
+   {
+   	 margin-left: 0;
+   }
+   
+   .loginform
+   {
+   		padding : 120px;
+   		margin-left:100px;
+   }
+   input.loginid
+   {
+   		padding:10px;
+   		margin-bottom : 5px;
+   }
+   input.loginpw
+   {		
+   		padding:10px;
+   }
+   input.loginbtn
+   {
+   		position : absolute;
+   		top : 300px;
+   		left : 850px;
+   		height : 90px;
+   		width  : 90px;
+   		border : 1px solid #6799FF;
+   		background : #6799FF;
+   		font-size : 20px; 		
+   }
+   .restxt
+   {
+   	 position:absolute;
+   	 top:400px;
+   	 left:650px;
+   }
+   .lgwelcome
+   {
+   		margin-left:-140px;
+   		margin-top:20px;
+   }
+   .infoupdate_txt
+   {
+   		position:absolute;
+   		top:300px;
+   		left:1190px;
+   }
+   .infoupdate_btn
+   {
+   		position:absolute;
+   		top:220px;
+   		background : #6799FF;
+   		border : 1px solid #6799FF;
+   		color:white;
+   		left:1190px;
+   		width:250px;
+   		height:60px;
+   }
+ 	.nobeltitle
+ 	{
+ 		margin-top : 50px;
+ 		margin-left : 450px;
+ 		padding-bottom : 450px;
+ 	}
+ 	.topbtn
+ 	{
+ 		position : absolute;
+ 		left : 1380px;
+ 	}
+ 	hr.nobletitle
+ 	{
+ 		border : 2px solid black;
+ 		width : 900px;
+ 		margin-left: 0;
+ 	}
+ 	ul.freeranking
+ 	{
+ 		margin-top : 30px;
+ 		margin-left:-40px;
+ 		list-style-type : none;
+ 	}
+ 	li.freerank
+ 	{
+ 		border : 1px solid lightgray;
+ 		width : 900px;
+ 		height : 50px;
+ 		margin-top : 10px;
+ 	}
+ 	span.ranknum
+ 	{
+ 		margin-top : 15px;
+ 		margin-left : 15px;
+ 		text-align: center;
+ 		width : 50px;
+ 	}
+ 	span.rankwriter
+ 	{
+ 		width : 100px;
+ 		text-align: center;
+ 	}
+ 	span.ranktitle
+ 	{
+ 		width : 400px;
+ 		text-align: center;
+ 	}
+ 	span.rankgenre
+ 	{
+ 		width : 150px;
+ 		text-align: center;
+ 	}
+ 	span.rankclick
+ 	{
+ 		text-align: center;
+ 		width : 150px;
+ 	}
+ 	li a:hover
+ 	{
+ 		text-decoration : none;
+ 	}
+ 	
+ 	.nbboard
+ 	{
+ 		
+ 		margin-top : 50px;
+ 		margin-left : 400px;
+ 		padding-bottom : 450px;
+ 	}
+ 	.nbimg
+ 	{
+ 		margin-top : 20px;
+ 		position : absolute;
+ 		width:120px;
+ 		height:180px;
+ 	}
+ 	.nbtitletext
+ 	{
+ 		margin-top : -20px;
+ 		margin-left:150px;
+ 	
+ 	}
+ 	.inlinetext
+ 	{
+ 		margin-left: 10px;
+ 		display:inline-block;
+ 	}
+ 	hr.boardhdline
+ 	{
+ 		margin-left : -150px;;
+ 		margin-top:50px;
+ 		border : 5px solid lightgray;
+ 		width : 900px;
+ 	}
+ 	.introduce
+ 	{
+ 		margin-left : -150px;
+ 	}
+ 	hr.introduceline
+ 	{
+ 		margin-left : 0;
+ 		margin-top:20px;
+ 		width:910px;
+ 		border : 1px solid black;
+ 	}
+ 	.titlesort
+ 	{
+ 		margin-top : 30px;
+ 		margin-left : -150px;
+ 		width:910px;
+ 		height : 30px;
+ 		border : 1px solid lightgray;
+ 		line-height: 30px; 
+ 	}
+ 	span.nbtitle
+ 	{
+ 		width:600px;
+ 		text-align :center;
+ 	}
+ 	span.nbdate
+ 	{
+ 		width:150px;
+ 		text-align :center;
+ 	}
+ 	span.nbclick
+ 	{
+ 		width:150px;
+ 		text-align :center;
+ 	}
+ 	ul.nblist
+ 	{
+ 		margin-left : -190px;
+ 		list-style-type: none;
+ 	}
+ 	span.nbnum
+ 	{
+ 		margin-top:5px;
+ 		margin-left:0;
+ 		width:50px;
+ 		text-align:center;
+ 	}
+ 	span.nbtitletext
+ 	{
+ 		margin-left : 0;
+ 		width:547px;
+ 		text-align:center;
+ 	}
+ 	.nobelcontent
+ 	{
+ 		margin-top:50px;
+ 		margin-left:400px;
+ 		padding-bottom:450px;
+ 	}
+ 	.nobelctitle
+ 	{
+ 		margin-left:150px;
+ 		margin-top : -200px;
+ 	}
+ 	.contentarea
+ 	{
+ 		margin-left:-150px;
+ 	}
+ 	.dclickbox
+ 	{
+ 		width:910px;
+ 		height:40px;
+ 		background : lightgray;
+ 	}
+ 	
+ 	span.wdate
+ 	{
+ 		
+ 		width : 150px;
+ 		text-align:center;
+ 	}
+ 	
+ 	span.contentclick
+ 	{
+ 		width : 150px;
+ 		text-align:center;
+ 	}
+ 	.nbtextarea
+ 	{
+ 		margin-top:50px;
+ 		width : 910px;
+ 		height : 800px;
+ 		background : #B7F0B1;
+ 		overflow-y:scroll;
+ 		overflow-x:hidden;
+ 	}
+ 	.nbtextcontent
+ 	{
+ 		font-size: 20px;
+ 		margin:30px;
+ 	}
+ 	.replyarea
+ 	{
+ 		margin-top:10px;
+ 	}
+ 	.cntcomment
+ 	{
+ 		border-top: 1px solid lightgray;
+ 		width : 910px;
+ 		height : 30px;
+ 		border-bottom: 1px solid lightgray;
+ 	}
+ 	
+ 	tr.replyborder
+ 	{
+ 		width : 910px;
+ 		height:100px;
+ 		border-bottom: 1px dotted lightgray;
+ 	}
+ 	
+ 	
+ 	.inputarea
+ 	{
+ 		width:900px;
+ 		height:300px;
+ 		border : 1px solid lightgray;
+ 	}
+ 	.inputstyle
+ 	{
+ 		width:700px; 
+ 		height:30px; 
+ 		font-size:16px; 
+ 		padding:10px;
+ 		margin-bottom:10px;
+ 	}
+ 	.nbcontinput
+ 	{
+ 		width:900px;
+ 		height:650px;
+ 		border : 1px solid lightgray;
+ 	}
+ 	.replyinput
+ 	{
+ 		margin-top:20px;
+ 		width:900px;
+ 		height:210px;
+ 		border : 1px solid lightgray;
+ 	}
+ 	.nbcontimg
+ 	{
+ 		margin-top : 20px;
+ 		position : absolute;
+ 		width:120px;
+ 		height:180px;
+ 	}
+ 	

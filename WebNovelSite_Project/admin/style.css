@@ -1,0 +1,222 @@
+@charset "EUC-KR";
+
+
+
+ #header {
+    position: absolute;
+    width:1500px;
+    top:0;
+    left:0;
+  }
+
+   .logo {
+     float: left;
+     margin-top:0;
+     margin-left:250px;
+   }
+
+   .search {
+     float: left;
+     margin-top:15px;
+     margin-left:550px;
+     margin-bottom : 10px;
+   }
+
+   .btn {
+     float: left;
+     margin-top:15px;
+     margin-left : -150px;
+   }
+	
+	.nav {
+		height: 50px;
+		width: 1210px;
+		margin-top: 15px;
+		margin-left:250px;
+		margin-right: 250px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		display: flex;
+		align-items: center;
+		background-color: #489CFF;
+	}
+
+
+
+	.navitem {
+		margin-left: 30px;
+	}
+
+  
+   .content {
+     position: absolute;
+     top: 120px;
+     margin-left: 250px;
+     height:100%;
+   }
+
+
+   .columns{
+     display: flex;
+     height:250px;
+   }
+
+   .column1 {
+     float:left;
+     width: 520px;
+     margin-right : 40px;
+     margin-top : 37px;
+   }
+
+   .column2 {
+     float:left;
+     width: 300px;
+     margin-right : 20px;
+     margin-top : 20px;
+   }
+
+   .column3 {
+     float:left;
+     width: 200px;
+     margin-left : 200px;
+     margin-top : 50px;
+   }
+
+   .leftarea {
+     float:left;
+     width: 900px;
+   }
+   .rightarea {
+     float: left;
+     width: 330px;
+   }
+
+   .underbannerbox{
+     border : 1px solid lightgray;
+     width : 1200px;
+     height : 400px;
+   }
+   .listsort{
+     margin-top : 50dp; 
+   }
+   
+   .novelTitle{
+     float : left;
+     margin-top : 40px;
+     margin-left : 35px;
+     color : white;
+     width : 180px;
+     height : 70px;
+     text-align : center;
+     line-height: 70px;
+     font-size : 110%;
+   }
+
+   .novelList {
+     float : left;
+     margin-left : 35px;
+     border : 1px solid lightgray;
+     background : white;
+     width : 180px;
+     height : 350px;
+   }
+
+   ol{
+     margin-left:10px;
+     line-height:30px;
+   }
+   
+
+   a:link{
+     color:black;
+     text-decoration: none;
+   }
+   a:hover{
+      text-decoration: none;
+   }
+
+   .lbox{
+     float : left;
+     margin-top : 40px;
+     background : lightgray;
+     width : 900px;
+     height : 500px;
+   }
+
+   .notice {
+     float : left;
+     margin-top : 100px;
+     width : 900px;
+     height : 300px;
+   }
+
+   .rightbanner  {
+     margin-left : 30px;
+     margin-top : 40px;
+     float : left;
+     border : 1px solid lightgray;
+     width : 270px;
+     height : 850px;
+   }
+
+   .underline {
+     dlsplay : block;
+     border-bottom : 1px solid lightgray; 
+     height : 50px;
+   }
+
+   	div a {
+     color:black;
+	 text-decoration: none;
+	}
+
+   #footer {
+     position: absolute;
+     bottom:0;
+     left:250px;
+     width: 1210px;
+     height:300px;
+     border-top : 1px solid black;
+     text-align:center;
+     line-height:50px;
+   }
+   .unline {
+     margin-top : 20px;
+     list-style-type : none;
+     font-size:13px;
+   }
+   .bestbox {
+     width:300px;
+     height : 200px;
+     border : 2px solid cyan; 
+   }
+   
+
+   .imagesort1{
+     float:left;
+     margin-left : 50px;
+     margin-top : 30px;
+     margin-right : 70px;   
+   }
+   
+   .spansort1{
+   	display:inline-block;
+   	overflow: hidden;
+   	text-overflow: ellipsis;
+   	white-space: nowrap;
+   }
+   
+   
+   .best_rank {
+   	width:20px;
+   }
+ 
+   .best_name {
+   	width:80px;
+   	
+   }
+   
+    .best_title {
+   	width:130px;
+   }
+   
