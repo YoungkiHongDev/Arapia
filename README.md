@@ -1,4 +1,4 @@
-# WebNobelsite
+# WebNovelSite
 [웹프로젝트실습 팀프로젝트] 웹소설 사이트
 
 # Member
