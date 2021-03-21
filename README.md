@@ -8,7 +8,7 @@
 # Skill
 - JAVA
 - HTML5
+- CSS3
 - JavaScript
-- CSS
 - JSP
 - MySQL
